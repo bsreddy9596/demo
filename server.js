@@ -50,7 +50,7 @@ app.get("/api/events", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("🏆 Topaz777 Sports Backend Running Successfully!");
+  res.send("Sports Backend Running Successfully!");
 });
 
 const PORT = process.env.PORT || 5000;
